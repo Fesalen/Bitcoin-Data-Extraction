@@ -1,0 +1,10 @@
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://10.21.238.222/bit_shut</property>
+        <!--<property name="jdbcUrl">jdbc:mysql://10.21.238.222/year_17</property>-->
+        <property name="user">root</property>
+        <property name="password">123456</property>
+        <property name="maxAdministrativeTaskTime">30</property>
+    </default-config>
+</c3p0-config>
